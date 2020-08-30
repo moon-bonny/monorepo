@@ -1,0 +1,39 @@
+{
+  "name": "@monorepo/utils",
+  "version": "0.0.4",
+  "description": "> TODO: description",
+  "author": "moon <lanyj123@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moon-bonny/monorepo.git"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@rollup/plugin-babel": "^5.2.0",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@vue/compiler-sfc": "^3.0.0-rc.6",
+    "dayjs": "^1.8.33",
+    "eslint": "^7.7.0",
+    "node-sass": "^4.14.1",
+    "rollup": "^2.26.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-terser": "^7.0.0",
+    "rollup-plugin-vue": "5.1.6",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "util": "^0.12.3",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

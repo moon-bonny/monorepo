@@ -1,0 +1,21 @@
+{
+  "name": "@monorepo/assets",
+  "version": "0.0.4",
+  "description": "> TODO: description",
+  "author": "moon <lanyj123@163.com>",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moon-bonny/monorepo.git"
+  },
+  "devDependencies": {
+    "@femessage/element-ui": "^2.17.0",
+    "@rollup/plugin-image": "^2.0.5"
+  },
+  "dependencies": {
+    "@rollup/plugin-image": "^2.0.5"
+  }
+}

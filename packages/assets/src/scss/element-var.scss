@@ -1,0 +1,31 @@
+// 改变主题色变量
+$--color-primary: #2460e0;
+
+/// color|1|Functional Color|1
+$--color-success: #2fd163;
+/// color|1|Functional Color|1
+$--color-warning: #f5a623;
+/// color|1|Functional Color|1
+$--color-danger: #ff4d4f;
+/// color|1|Functional Color|1
+$--color-info: #a7a8ad;
+
+/// color|1|Font Color|2
+$--color-text-primary: #2d303b;
+/// color|1|Font Color|2
+$--color-text-regular: #6a6c73;
+/// color|1|Font Color|2
+$--color-text-secondary: #a7a8ad;
+/// color|1|Font Color|2
+$--color-text-placeholder: #c6c7ca;
+
+$--border-color-base: #dcdee6;
+/// color|1|Border Color|3
+$--border-color-light: #e4e8f3;
+
+$--background-color-base: #f0f2f5;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: "~@femessage/element-ui/lib/theme-chalk/fonts";
+
+@import "~@femessage/element-ui/packages/theme-chalk/src/index";

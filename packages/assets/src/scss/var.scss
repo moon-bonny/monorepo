@@ -1,0 +1,42 @@
+/*
+  主色调变量, 无需手动引入
+*/
+
+$primaryColor: #2460e0;
+$hoverColor: #6d8df9;
+$clickColor: #1f54c4;
+// base color
+// color|1|BrandColor|0
+// $colorPrimary: #15AC8D; //
+// // color|1|SecondaryColor|1
+// $colorSuccess: #02C5E2;
+// // color|1|SecondaryColor|1
+// $colorWarning: #F5A623;
+// // color|1|SecondaryColor|1
+// $colorDanger: #E24156;
+// // color|1|SecondaryColor|1
+// $colorIInfo: #6A6E7B;
+
+// color|1|FontColor|1
+$textColorPrimary: #2d303b;
+// color|1|FontColor|2
+$textColorRegular: #6a6c73;
+// color|1|FontColor|3
+$textColorSecondary: #a7a8ad;
+// color|1|FontColor|4
+$textColorPlaceholder: #c6c7ca;
+
+// color|1|BorderColor|1
+$borderColorBase: #dcdee6;
+// color|1|BorderColor|2
+$borderColorLight: #e4e8f3;
+
+// color|1|BackgroundColor|1
+$backgroundColorBase: #f0f2f5;
+// color|1|BackgroundColor|2
+$backgroundColorLight: #f5f6f9;
+// color|1|BackgroundColor|3
+$backgroundColorBlack: #333643;
+
+$paddingDefault: 24px;
+$paddingContainer: 20px;
