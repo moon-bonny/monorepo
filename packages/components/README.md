@@ -1,11 +1,13 @@
-# `@service-develop/icon-font`
+# `@monorepo/components` 包
 
-> TODO: description
+## 全局注册
 
-## Usage
+在 vue 项目的 main.js 中全局注册组件库，配合使用 `@monorepo/assets` 的样式文件
 
 ```
-const iconFont = require('@service-develop/icon-font');
+import Components from "@monorepo/components"
+import "@monorepo/assets/src/scss/global.scss"
+import "@monorepo/assets/src/scss/element-var.scss"
 
-// TODO: DEMONSTRATE API
+Vue.use(Components)
 ```

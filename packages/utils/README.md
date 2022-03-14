@@ -1,11 +1,9 @@
-# `@service-develop/utils`
-
-> TODO: description
+# `@monorepo/utils`
 
 ## Usage
 
 ```
-const utils = require('@service-develop/utils');
+const utils = require('@monorepo/utils');
 
 // TODO: DEMONSTRATE API
 ```
